@@ -148,4 +148,4 @@ def static_path(path):
     return send_from_directory(".", path)
 
 
-app.run()
+app.run(host='0.0.0.0')

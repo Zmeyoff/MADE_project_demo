@@ -8,7 +8,7 @@ docker:
 
 docker build -t made_proj_transnet -f ./Dockerfile ./
 
-docker run --publish 5017:5017 made_proj_transnet
+docker run --publish 5017:5000 made_proj_transnet
 
 ----
 
